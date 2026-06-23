@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "description": "HR login demo data. Dates are evergreen: meetings use DayOfWeek (map to current week), tasks use dueOffsetDays (0=today, negative=overdue), emails use receivedMinutesAgo.",
+    "description": "HR login demo data. Dates are evergreen: meetings use DayOfWeek (map to current week), tasks use dueOffsetDays (0=today, negative=overdue), emails use receivedMinutesAgo. Emails include a full 'body'; meetings include a 'type' for colour-coding.",
     "photoBase": "https://raw.githubusercontent.com/RobertvandeVorst/HRapp/main/images/"
   },
   "employees": [
@@ -71,7 +71,8 @@
           "subject": "Re: Q2 headcount & cost forecast",
           "preview": "Can you confirm the contractor-to-FTE ratio before the board meeting?",
           "receivedMinutesAgo": 35,
-          "unread": true
+          "unread": true,
+          "body": "Hi Sanne, before the board meeting I want to align on the contractor-to-FTE ratio. The forecast shows contractor spend up 8% versus Q1 — can you confirm whether that's driven by the Production backfills? Happy to jump on a quick call this afternoon if that's easier."
         },
         {
           "id": "HR01-E02",
@@ -80,7 +81,8 @@
           "subject": "Attrition deep-dive: Production unit",
           "preview": "Sharing the first-year churn breakdown you asked for.",
           "receivedMinutesAgo": 120,
-          "unread": true
+          "unread": true,
+          "body": "Sanne, sharing the first-year churn breakdown you asked for. The Production cluster is the main driver — voluntary exits inside the first 12 months are running well above the company average, and work-life balance comes up repeatedly in exit interviews. Full numbers attached; I've flagged the regrettable cases."
         },
         {
           "id": "HR01-E03",
@@ -89,7 +91,8 @@
           "subject": "Agenda — Board meeting 26 June",
           "preview": "Your workforce update is item 4 on the final agenda.",
           "receivedMinutesAgo": 240,
-          "unread": false
+          "unread": false,
+          "body": "Dear Sanne, please find the final agenda for the board meeting on 26 June. Your workforce update is item 4, with a 15-minute slot including Q&A. Kindly send any supporting slides by end of Wednesday so they can be circulated in advance."
         },
         {
           "id": "HR01-E04",
@@ -98,7 +101,8 @@
           "subject": "2026 training plan — ready for approval",
           "preview": "Finalised with completion targets per program.",
           "receivedMinutesAgo": 1100,
-          "unread": false
+          "unread": false,
+          "body": "Hi Sanne, the 2026 L&D plan is finalised with completion targets per program and a revised budget. Headline: we're shifting more spend toward internal leadership development based on this year's outcome data. Ready for your approval whenever you have a moment."
         }
       ],
       "meetings": [
@@ -109,7 +113,8 @@
           "startTime": "09:00",
           "endTime": "09:30",
           "location": "Teams",
-          "attendees": "Daan Jansen; Aisha Khan; Lukas Meyer; Emma Bakker"
+          "attendees": "Daan Jansen; Aisha Khan; Lukas Meyer; Emma Bakker",
+          "type": "sync"
         },
         {
           "id": "HR01-M02",
@@ -118,7 +123,8 @@
           "startTime": "14:00",
           "endTime": "15:00",
           "location": "Room Aurora",
-          "attendees": "Mark Visser"
+          "attendees": "Mark Visser",
+          "type": "meeting"
         },
         {
           "id": "HR01-M03",
@@ -127,7 +133,8 @@
           "startTime": "11:00",
           "endTime": "11:45",
           "location": "Room Delft",
-          "attendees": "Daan Jansen; Emma Bakker"
+          "attendees": "Daan Jansen; Emma Bakker",
+          "type": "review"
         },
         {
           "id": "HR01-M04",
@@ -136,7 +143,8 @@
           "startTime": "10:00",
           "endTime": "10:30",
           "location": "Teams",
-          "attendees": "Aisha Khan"
+          "attendees": "Aisha Khan",
+          "type": "1:1"
         },
         {
           "id": "HR01-M05",
@@ -145,7 +153,8 @@
           "startTime": "15:00",
           "endTime": "16:00",
           "location": "Room Aurora",
-          "attendees": "Mark Visser; Daan Jansen"
+          "attendees": "Mark Visser; Daan Jansen",
+          "type": "meeting"
         }
       ]
     },
@@ -216,7 +225,8 @@
           "subject": "Re: Attrition deep-dive: Production unit",
           "preview": "Can you add the regrettable split before Wednesday?",
           "receivedMinutesAgo": 25,
-          "unread": true
+          "unread": true,
+          "body": "Thanks Daan, this is exactly what I needed. Can you add the regrettable-vs-non-regrettable split before Wednesday's review? I'd like to show the board we're losing people we wanted to keep, not just managing natural turnover."
         },
         {
           "id": "HR02-E02",
@@ -225,7 +235,8 @@
           "subject": "Concern about team workload",
           "preview": "Two of my technicians have flagged burnout risk.",
           "receivedMinutesAgo": 90,
-          "unread": true
+          "unread": true,
+          "body": "Daan, two of my technicians have flagged they're close to burnout after last month's overtime push. I don't want to lose them — can we look at temporary backfill or redistributing the shift load? Would appreciate your advice on the right way to handle this."
         },
         {
           "id": "HR02-E03",
@@ -234,7 +245,8 @@
           "subject": "Headcount data refresh complete",
           "preview": "The Q2 master file is updated and ready.",
           "receivedMinutesAgo": 300,
-          "unread": false
+          "unread": false,
+          "body": "Hi Daan, the Q2 master headcount file is refreshed and reconciled — 2,845 records across all departments. You're clear to pull from it for the attrition deep-dive. Let me know if any figures look off."
         },
         {
           "id": "HR02-E04",
@@ -243,7 +255,8 @@
           "subject": "Engagement results are ready",
           "preview": "Your team's latest engagement scores are available.",
           "receivedMinutesAgo": 1440,
-          "unread": false
+          "unread": false,
+          "body": "Your team's latest engagement results are now available in the dashboard. The overall score is steady, but the Production sub-team dipped on 'manager support'. Log in to view the full breakdown by question and team."
         }
       ],
       "meetings": [
@@ -254,7 +267,8 @@
           "startTime": "09:00",
           "endTime": "09:30",
           "location": "Teams",
-          "attendees": "Sanne de Vries; +3"
+          "attendees": "Sanne de Vries; +3",
+          "type": "sync"
         },
         {
           "id": "HR02-M02",
@@ -263,7 +277,8 @@
           "startTime": "13:30",
           "endTime": "14:00",
           "location": "Teams",
-          "attendees": "Tom Bakker"
+          "attendees": "Tom Bakker",
+          "type": "1:1"
         },
         {
           "id": "HR02-M03",
@@ -272,7 +287,8 @@
           "startTime": "10:00",
           "endTime": "11:00",
           "location": "Room Delft",
-          "attendees": "+4"
+          "attendees": "+4",
+          "type": "workshop"
         },
         {
           "id": "HR02-M04",
@@ -281,7 +297,8 @@
           "startTime": "11:00",
           "endTime": "11:45",
           "location": "Room Delft",
-          "attendees": "Sanne de Vries; Emma Bakker"
+          "attendees": "Sanne de Vries; Emma Bakker",
+          "type": "review"
         },
         {
           "id": "HR02-M05",
@@ -290,7 +307,8 @@
           "startTime": "15:00",
           "endTime": "15:30",
           "location": "Room Maas",
-          "attendees": "+1"
+          "attendees": "+1",
+          "type": "review"
         }
       ]
     },
@@ -361,7 +379,8 @@
           "subject": "Re: Data Analyst — interview availability",
           "preview": "I'm available Thursday afternoon or Friday morning.",
           "receivedMinutesAgo": 15,
-          "unread": true
+          "unread": true,
+          "body": "Hi Aisha, thank you for the update — I'm really excited about the role. I'm available Thursday afternoon or Friday morning for the final round. Let me know what suits the panel and I'll make it work."
         },
         {
           "id": "HR03-E02",
@@ -370,7 +389,8 @@
           "subject": "Feedback on shortlist",
           "preview": "Let's move forward with candidates 1 and 3.",
           "receivedMinutesAgo": 75,
-          "unread": true
+          "unread": true,
+          "body": "Hi Aisha, I've reviewed the three CVs for the Data Analyst position. Let's move forward with candidates 1 and 3 — both have the SQL and dashboarding depth we need. Candidate 2 was strong but less of a team fit. Can we get them in this week?"
         },
         {
           "id": "HR03-E03",
@@ -379,7 +399,8 @@
           "subject": "5 new applicants for your job post",
           "preview": "New applicants for Production Technician I.",
           "receivedMinutesAgo": 200,
-          "unread": false
+          "unread": false,
+          "body": "You have 5 new applicants for your job post 'Production Technician I'. Two match more than 80% of your listed criteria. Review and respond promptly to keep candidates engaged."
         },
         {
           "id": "HR03-E04",
@@ -388,7 +409,8 @@
           "subject": "Pipeline update for Thursday 1:1",
           "preview": "Can you bring time-to-fill numbers to our 1:1?",
           "receivedMinutesAgo": 600,
-          "unread": false
+          "unread": false,
+          "body": "Aisha, looking forward to our 1:1 on Thursday. Could you bring the latest time-to-fill numbers and the status of the two senior roles? The board will ask about recruitment velocity and I want us aligned."
         }
       ],
       "meetings": [
@@ -399,7 +421,8 @@
           "startTime": "11:00",
           "endTime": "11:45",
           "location": "Teams",
-          "attendees": "Lisa Wong"
+          "attendees": "Lisa Wong",
+          "type": "meeting"
         },
         {
           "id": "HR03-M02",
@@ -408,7 +431,8 @@
           "startTime": "14:00",
           "endTime": "14:45",
           "location": "Room Maas",
-          "attendees": "Nadia el Amrani"
+          "attendees": "Nadia el Amrani",
+          "type": "interview"
         },
         {
           "id": "HR03-M03",
@@ -417,7 +441,8 @@
           "startTime": "09:30",
           "endTime": "10:15",
           "location": "Teams",
-          "attendees": "+1"
+          "attendees": "+1",
+          "type": "interview"
         },
         {
           "id": "HR03-M04",
@@ -426,7 +451,8 @@
           "startTime": "10:00",
           "endTime": "10:30",
           "location": "Teams",
-          "attendees": "Sanne de Vries"
+          "attendees": "Sanne de Vries",
+          "type": "1:1"
         },
         {
           "id": "HR03-M05",
@@ -435,7 +461,8 @@
           "startTime": "13:00",
           "endTime": "13:30",
           "location": "Teams",
-          "attendees": "+2"
+          "attendees": "+2",
+          "type": "sync"
         }
       ]
     },
@@ -506,7 +533,8 @@
           "subject": "Re: 2026 training plan",
           "preview": "Approving today. Add completion targets to the board slide.",
           "receivedMinutesAgo": 50,
-          "unread": true
+          "unread": true,
+          "body": "Looks good, Lukas — approving today. One ask: add the completion-rate targets to the board slide so leadership can see the link between training spend and outcomes. Great work pulling this together."
         },
         {
           "id": "HR04-E02",
@@ -515,7 +543,8 @@
           "subject": "Invoice & June cohort confirmation",
           "preview": "Confirming your Leadership Development cohort for next month.",
           "receivedMinutesAgo": 180,
-          "unread": false
+          "unread": false,
+          "body": "Dear Lukas, this confirms your Leadership Development cohort scheduled for next month (12 participants). The invoice is attached and due in 30 days. Please confirm the final attendee list one week before the start date."
         },
         {
           "id": "HR04-E03",
@@ -524,7 +553,8 @@
           "subject": "14 employees overdue on mandatory training",
           "preview": "The following employees have not completed required modules.",
           "receivedMinutesAgo": 720,
-          "unread": true
+          "unread": true,
+          "body": "Automated notice: 14 employees have not completed their mandatory training modules by the due date. The list is attached and managers have been copied. Please follow up to ensure compliance before quarter-end."
         },
         {
           "id": "HR04-E04",
@@ -533,7 +563,8 @@
           "subject": "Training cost reconciliation Q2",
           "preview": "The training spend vs budget reconciliation is attached.",
           "receivedMinutesAgo": 1300,
-          "unread": false
+          "unread": false,
+          "body": "Hi Lukas, the Q2 training spend vs budget reconciliation is attached. We're tracking slightly under budget overall, but the external-vendor line is over — likely the SkillForge invoice. Can you confirm the coding so I can close the quarter?"
         }
       ],
       "meetings": [
@@ -544,7 +575,8 @@
           "startTime": "09:00",
           "endTime": "09:30",
           "location": "Teams",
-          "attendees": "Sanne de Vries; +3"
+          "attendees": "Sanne de Vries; +3",
+          "type": "sync"
         },
         {
           "id": "HR04-M02",
@@ -553,7 +585,8 @@
           "startTime": "11:00",
           "endTime": "12:00",
           "location": "Room Delft",
-          "attendees": "+2"
+          "attendees": "+2",
+          "type": "meeting"
         },
         {
           "id": "HR04-M03",
@@ -562,7 +595,8 @@
           "startTime": "14:00",
           "endTime": "14:30",
           "location": "Teams",
-          "attendees": ""
+          "attendees": "",
+          "type": "review"
         },
         {
           "id": "HR04-M04",
@@ -571,7 +605,8 @@
           "startTime": "13:00",
           "endTime": "13:45",
           "location": "Room Maas",
-          "attendees": "+3"
+          "attendees": "+3",
+          "type": "workshop"
         },
         {
           "id": "HR04-M05",
@@ -580,7 +615,8 @@
           "startTime": "10:00",
           "endTime": "10:45",
           "location": "Teams",
-          "attendees": "+1"
+          "attendees": "+1",
+          "type": "meeting"
         }
       ]
     },
@@ -651,7 +687,8 @@
           "subject": "June payroll cut-off reminder",
           "preview": "Please submit final payroll changes by Thursday 17:00.",
           "receivedMinutesAgo": 40,
-          "unread": true
+          "unread": true,
+          "body": "Reminder: the cut-off for June payroll changes is Thursday at 17:00. Please submit all new starters, leavers, and salary adjustments before then. Anything received after the deadline will roll into the July run."
         },
         {
           "id": "HR05-E02",
@@ -660,7 +697,8 @@
           "subject": "New starters for July — details attached",
           "preview": "Here are the 4 new contracts for onboarding setup.",
           "receivedMinutesAgo": 110,
-          "unread": true
+          "unread": true,
+          "body": "Hi Emma, attached are the four signed contracts for July onboarding — two Production, one Sales, one Finance. Can you set up their payroll and system access? Start date is the 1st for all four."
         },
         {
           "id": "HR05-E03",
@@ -669,7 +707,8 @@
           "subject": "Re: Training cost reconciliation Q2",
           "preview": "The SkillForge invoice should be coded to L&D.",
           "receivedMinutesAgo": 260,
-          "unread": false
+          "unread": false,
+          "body": "Thanks Emma — the SkillForge invoice should be coded to the L&D external-vendor line, not general training. That should explain the overage. Let me know if you need anything else to close Q2."
         },
         {
           "id": "HR05-E04",
@@ -678,7 +717,8 @@
           "subject": "Q2 contribution statement",
           "preview": "Your quarterly contribution statement is now available.",
           "receivedMinutesAgo": 900,
-          "unread": false
+          "unread": false,
+          "body": "Your quarterly pension contribution statement is now available. Total contributions and any adjustments are detailed in the attached document. Please review and confirm before the 30th."
         }
       ],
       "meetings": [
@@ -689,7 +729,8 @@
           "startTime": "09:00",
           "endTime": "09:30",
           "location": "Teams",
-          "attendees": "Sanne de Vries; +3"
+          "attendees": "Sanne de Vries; +3",
+          "type": "sync"
         },
         {
           "id": "HR05-M02",
@@ -698,7 +739,8 @@
           "startTime": "10:00",
           "endTime": "10:30",
           "location": "Teams",
-          "attendees": "+1"
+          "attendees": "+1",
+          "type": "deadline"
         },
         {
           "id": "HR05-M03",
@@ -707,7 +749,8 @@
           "startTime": "11:00",
           "endTime": "11:45",
           "location": "Room Delft",
-          "attendees": "Sanne de Vries; Daan Jansen"
+          "attendees": "Sanne de Vries; Daan Jansen",
+          "type": "review"
         },
         {
           "id": "HR05-M04",
@@ -716,7 +759,8 @@
           "startTime": "09:00",
           "endTime": "09:30",
           "location": "Teams",
-          "attendees": "Daan Jansen"
+          "attendees": "Daan Jansen",
+          "type": "sync"
         },
         {
           "id": "HR05-M05",
@@ -725,7 +769,8 @@
           "startTime": "14:00",
           "endTime": "14:30",
           "location": "Room Maas",
-          "attendees": "+1"
+          "attendees": "+1",
+          "type": "review"
         }
       ]
     }
