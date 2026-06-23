@@ -1,0 +1,21 @@
+hr_id,email_id,SenderName,SenderEmail,Subject,Preview,ReceivedMinutesAgo,Unread
+HR01,HR01-E01,Mark Visser,mark.visser@meridiangroup.com,Re: Q2 headcount & cost forecast,Can you confirm the contractor-to-FTE ratio before the board meeting?,35,1
+HR01,HR01-E02,Daan Jansen,daan.jansen@meridiangroup.com,Attrition deep-dive: Production unit,Sharing the first-year churn breakdown you asked for.,120,1
+HR01,HR01-E03,Board Secretary,board@meridiangroup.com,Agenda — Board meeting 26 June,Your workforce update is item 4 on the final agenda.,240,0
+HR01,HR01-E04,Lukas Meyer,lukas.meyer@meridiangroup.com,2026 training plan — ready for approval,Finalised with completion targets per program.,1100,0
+HR02,HR02-E01,Sanne de Vries,sanne.devries@meridiangroup.com,Re: Attrition deep-dive: Production unit,Can you add the regrettable split before Wednesday?,25,1
+HR02,HR02-E02,Tom Bakker,tom.bakker@meridiangroup.com,Concern about team workload,Two of my technicians have flagged burnout risk.,90,1
+HR02,HR02-E03,Emma Bakker,emma.bakker@meridiangroup.com,Headcount data refresh complete,The Q2 master file is updated and ready.,300,0
+HR02,HR02-E04,Pulse Survey,noreply@pulsesurvey.io,Engagement results are ready,Your team's latest engagement scores are available.,1440,0
+HR03,HR03-E01,Nadia el Amrani,n.elamrani@gmail.com,Re: Data Analyst — interview availability,I'm available Thursday afternoon or Friday morning.,15,1
+HR03,HR03-E02,Lisa Wong,lisa.wong@meridiangroup.com,Feedback on shortlist,Let's move forward with candidates 1 and 3.,75,1
+HR03,HR03-E03,LinkedIn,notifications@linkedin.com,5 new applicants for your job post,New applicants for Production Technician I.,200,0
+HR03,HR03-E04,Sanne de Vries,sanne.devries@meridiangroup.com,Pipeline update for Thursday 1:1,Can you bring time-to-fill numbers to our 1:1?,600,0
+HR04,HR04-E01,Sanne de Vries,sanne.devries@meridiangroup.com,Re: 2026 training plan,Approving today. Add completion targets to the board slide.,50,1
+HR04,HR04-E02,SkillForge,accounts@skillforge.com,Invoice & June cohort confirmation,Confirming your Leadership Development cohort for next month.,180,0
+HR04,HR04-E03,LMS System,noreply@lms.meridiangroup.com,14 employees overdue on mandatory training,The following employees have not completed required modules.,720,1
+HR04,HR04-E04,Emma Bakker,emma.bakker@meridiangroup.com,Training cost reconciliation Q2,The training spend vs budget reconciliation is attached.,1300,0
+HR05,HR05-E01,Loonservice,support@loonservice.nl,June payroll cut-off reminder,Please submit final payroll changes by Thursday 17:00.,40,1
+HR05,HR05-E02,Daan Jansen,daan.jansen@meridiangroup.com,New starters for July — details attached,Here are the 4 new contracts for onboarding setup.,110,1
+HR05,HR05-E03,Lukas Meyer,lukas.meyer@meridiangroup.com,Re: Training cost reconciliation Q2,The SkillForge invoice should be coded to L&D.,260,0
+HR05,HR05-E04,Pensioenfonds,noreply@pensioenfonds.nl,Q2 contribution statement,Your quarterly contribution statement is now available.,900,0

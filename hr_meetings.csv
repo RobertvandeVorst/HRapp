@@ -1,0 +1,26 @@
+hr_id,meeting_id,Title,DayOfWeek,StartTime,EndTime,Location,Attendees
+HR01,HR01-M01,Weekly HR leadership sync,Mon,09:00,09:30,Teams,Daan Jansen; Aisha Khan; Lukas Meyer; Emma Bakker
+HR01,HR01-M02,Board prep with CFO,Tue,14:00,15:00,Room Aurora,Mark Visser
+HR01,HR01-M03,Attrition review,Wed,11:00,11:45,Room Delft,Daan Jansen; Emma Bakker
+HR01,HR01-M04,1:1 Aisha — recruitment pipeline,Thu,10:00,10:30,Teams,Aisha Khan
+HR01,HR01-M05,Q2 wrap-up & board debrief,Fri,15:00,16:00,Room Aurora,Mark Visser; Daan Jansen
+HR02,HR02-M01,Weekly HR leadership sync,Mon,09:00,09:30,Teams,Sanne de Vries; +3
+HR02,HR02-M02,1:1 with at-risk manager,Mon,13:30,14:00,Teams,Tom Bakker
+HR02,HR02-M03,Sales job-architecture workshop,Tue,10:00,11:00,Room Delft,+4
+HR02,HR02-M04,Attrition review,Wed,11:00,11:45,Room Delft,Sanne de Vries; Emma Bakker
+HR02,HR02-M05,Grievance case review,Thu,15:00,15:30,Room Maas,+1
+HR03,HR03-M01,Intake meeting — new Finance role,Mon,11:00,11:45,Teams,Lisa Wong
+HR03,HR03-M02,Candidate interview — Data Analyst,Tue,14:00,14:45,Room Maas,Nadia el Amrani
+HR03,HR03-M03,Candidate interview — Data Analyst,Wed,09:30,10:15,Teams,+1
+HR03,HR03-M04,1:1 Sanne — pipeline update,Thu,10:00,10:30,Teams,Sanne de Vries
+HR03,HR03-M05,Weekly recruitment standup,Fri,13:00,13:30,Teams,+2
+HR04,HR04-M01,Weekly HR leadership sync,Mon,09:00,09:30,Teams,Sanne de Vries; +3
+HR04,HR04-M02,Trainer briefing — Leadership Development,Tue,11:00,12:00,Room Delft,+2
+HR04,HR04-M03,LMS review,Wed,14:00,14:30,Teams,
+HR04,HR04-M04,Onboarding content workshop,Thu,13:00,13:45,Room Maas,+3
+HR04,HR04-M05,L&D planning,Fri,10:00,10:45,Teams,+1
+HR05,HR05-M01,Weekly HR leadership sync,Mon,09:00,09:30,Teams,Sanne de Vries; +3
+HR05,HR05-M02,Payroll cut-off check,Tue,10:00,10:30,Teams,+1
+HR05,HR05-M03,Attrition review (data support),Wed,11:00,11:45,Room Delft,Sanne de Vries; Daan Jansen
+HR05,HR05-M04,Onboarding admin sync,Thu,09:00,09:30,Teams,Daan Jansen
+HR05,HR05-M05,Q2 finance reconciliation,Fri,14:00,14:30,Room Maas,+1

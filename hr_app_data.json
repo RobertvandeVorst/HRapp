@@ -1,0 +1,733 @@
+{
+  "_meta": {
+    "description": "HR login demo data. Dates are evergreen: meetings use DayOfWeek (map to current week), tasks use dueOffsetDays (0=today, negative=overdue), emails use receivedMinutesAgo.",
+    "photoBase": "https://raw.githubusercontent.com/RobertvandeVorst/HRapp/main/images/"
+  },
+  "employees": [
+    {
+      "id": "HR01",
+      "name": "Sanne de Vries",
+      "role": "HR Director",
+      "age": 52,
+      "startDate": "2009-03-02",
+      "email": "sanne.devries@meridiangroup.com",
+      "location": "Amsterdam",
+      "photo": "face_03.jpg",
+      "tasks": [
+        {
+          "id": "HR01-T01",
+          "title": "Approve Q2 attrition report for board",
+          "category": "Reporting",
+          "priority": "High",
+          "dueOffsetDays": 0,
+          "status": "Open"
+        },
+        {
+          "id": "HR01-T02",
+          "title": "Finalise 2026 L&D budget sign-off",
+          "category": "Budget",
+          "priority": "High",
+          "dueOffsetDays": 2,
+          "status": "Open"
+        },
+        {
+          "id": "HR01-T03",
+          "title": "Review regrettable-attrition action plan",
+          "category": "Retention",
+          "priority": "Medium",
+          "dueOffsetDays": -1,
+          "status": "Open"
+        },
+        {
+          "id": "HR01-T04",
+          "title": "Prepare workforce-overview board deck",
+          "category": "Reporting",
+          "priority": "High",
+          "dueOffsetDays": 1,
+          "status": "Open"
+        },
+        {
+          "id": "HR01-T05",
+          "title": "Approve two senior offers",
+          "category": "Recruitment",
+          "priority": "Medium",
+          "dueOffsetDays": 0,
+          "status": "Open"
+        },
+        {
+          "id": "HR01-T06",
+          "title": "Quarterly 1:1s with HRBPs",
+          "category": "People",
+          "priority": "Low",
+          "dueOffsetDays": 3,
+          "status": "Done"
+        }
+      ],
+      "emails": [
+        {
+          "id": "HR01-E01",
+          "senderName": "Mark Visser",
+          "senderEmail": "mark.visser@meridiangroup.com",
+          "subject": "Re: Q2 headcount & cost forecast",
+          "preview": "Can you confirm the contractor-to-FTE ratio before the board meeting?",
+          "receivedMinutesAgo": 35,
+          "unread": true
+        },
+        {
+          "id": "HR01-E02",
+          "senderName": "Daan Jansen",
+          "senderEmail": "daan.jansen@meridiangroup.com",
+          "subject": "Attrition deep-dive: Production unit",
+          "preview": "Sharing the first-year churn breakdown you asked for.",
+          "receivedMinutesAgo": 120,
+          "unread": true
+        },
+        {
+          "id": "HR01-E03",
+          "senderName": "Board Secretary",
+          "senderEmail": "board@meridiangroup.com",
+          "subject": "Agenda — Board meeting 26 June",
+          "preview": "Your workforce update is item 4 on the final agenda.",
+          "receivedMinutesAgo": 240,
+          "unread": false
+        },
+        {
+          "id": "HR01-E04",
+          "senderName": "Lukas Meyer",
+          "senderEmail": "lukas.meyer@meridiangroup.com",
+          "subject": "2026 training plan — ready for approval",
+          "preview": "Finalised with completion targets per program.",
+          "receivedMinutesAgo": 1100,
+          "unread": false
+        }
+      ],
+      "meetings": [
+        {
+          "id": "HR01-M01",
+          "title": "Weekly HR leadership sync",
+          "dayOfWeek": "Mon",
+          "startTime": "09:00",
+          "endTime": "09:30",
+          "location": "Teams",
+          "attendees": "Daan Jansen; Aisha Khan; Lukas Meyer; Emma Bakker"
+        },
+        {
+          "id": "HR01-M02",
+          "title": "Board prep with CFO",
+          "dayOfWeek": "Tue",
+          "startTime": "14:00",
+          "endTime": "15:00",
+          "location": "Room Aurora",
+          "attendees": "Mark Visser"
+        },
+        {
+          "id": "HR01-M03",
+          "title": "Attrition review",
+          "dayOfWeek": "Wed",
+          "startTime": "11:00",
+          "endTime": "11:45",
+          "location": "Room Delft",
+          "attendees": "Daan Jansen; Emma Bakker"
+        },
+        {
+          "id": "HR01-M04",
+          "title": "1:1 Aisha — recruitment pipeline",
+          "dayOfWeek": "Thu",
+          "startTime": "10:00",
+          "endTime": "10:30",
+          "location": "Teams",
+          "attendees": "Aisha Khan"
+        },
+        {
+          "id": "HR01-M05",
+          "title": "Q2 wrap-up & board debrief",
+          "dayOfWeek": "Fri",
+          "startTime": "15:00",
+          "endTime": "16:00",
+          "location": "Room Aurora",
+          "attendees": "Mark Visser; Daan Jansen"
+        }
+      ]
+    },
+    {
+      "id": "HR02",
+      "name": "Daan Jansen",
+      "role": "HR Business Partner",
+      "age": 38,
+      "startDate": "2017-06-12",
+      "email": "daan.jansen@meridiangroup.com",
+      "location": "Eindhoven",
+      "photo": "face_07.jpg",
+      "tasks": [
+        {
+          "id": "HR02-T01",
+          "title": "Compile Production-unit attrition deep-dive",
+          "category": "Reporting",
+          "priority": "High",
+          "dueOffsetDays": 0,
+          "status": "Open"
+        },
+        {
+          "id": "HR02-T02",
+          "title": "Run 1:1s with 3 at-risk managers",
+          "category": "Retention",
+          "priority": "High",
+          "dueOffsetDays": 1,
+          "status": "Open"
+        },
+        {
+          "id": "HR02-T03",
+          "title": "Update job architecture for Sales division",
+          "category": "Org Design",
+          "priority": "Medium",
+          "dueOffsetDays": 4,
+          "status": "Open"
+        },
+        {
+          "id": "HR02-T04",
+          "title": "Close out 2 grievance cases",
+          "category": "Employee Relations",
+          "priority": "High",
+          "dueOffsetDays": -2,
+          "status": "Open"
+        },
+        {
+          "id": "HR02-T05",
+          "title": "Draft engagement-survey follow-up actions",
+          "category": "Engagement",
+          "priority": "Medium",
+          "dueOffsetDays": 3,
+          "status": "Open"
+        },
+        {
+          "id": "HR02-T06",
+          "title": "Approve July leave requests for BU",
+          "category": "Operations",
+          "priority": "Low",
+          "dueOffsetDays": 0,
+          "status": "Done"
+        }
+      ],
+      "emails": [
+        {
+          "id": "HR02-E01",
+          "senderName": "Sanne de Vries",
+          "senderEmail": "sanne.devries@meridiangroup.com",
+          "subject": "Re: Attrition deep-dive: Production unit",
+          "preview": "Can you add the regrettable split before Wednesday?",
+          "receivedMinutesAgo": 25,
+          "unread": true
+        },
+        {
+          "id": "HR02-E02",
+          "senderName": "Tom Bakker",
+          "senderEmail": "tom.bakker@meridiangroup.com",
+          "subject": "Concern about team workload",
+          "preview": "Two of my technicians have flagged burnout risk.",
+          "receivedMinutesAgo": 90,
+          "unread": true
+        },
+        {
+          "id": "HR02-E03",
+          "senderName": "Emma Bakker",
+          "senderEmail": "emma.bakker@meridiangroup.com",
+          "subject": "Headcount data refresh complete",
+          "preview": "The Q2 master file is updated and ready.",
+          "receivedMinutesAgo": 300,
+          "unread": false
+        },
+        {
+          "id": "HR02-E04",
+          "senderName": "Pulse Survey",
+          "senderEmail": "noreply@pulsesurvey.io",
+          "subject": "Engagement results are ready",
+          "preview": "Your team's latest engagement scores are available.",
+          "receivedMinutesAgo": 1440,
+          "unread": false
+        }
+      ],
+      "meetings": [
+        {
+          "id": "HR02-M01",
+          "title": "Weekly HR leadership sync",
+          "dayOfWeek": "Mon",
+          "startTime": "09:00",
+          "endTime": "09:30",
+          "location": "Teams",
+          "attendees": "Sanne de Vries; +3"
+        },
+        {
+          "id": "HR02-M02",
+          "title": "1:1 with at-risk manager",
+          "dayOfWeek": "Mon",
+          "startTime": "13:30",
+          "endTime": "14:00",
+          "location": "Teams",
+          "attendees": "Tom Bakker"
+        },
+        {
+          "id": "HR02-M03",
+          "title": "Sales job-architecture workshop",
+          "dayOfWeek": "Tue",
+          "startTime": "10:00",
+          "endTime": "11:00",
+          "location": "Room Delft",
+          "attendees": "+4"
+        },
+        {
+          "id": "HR02-M04",
+          "title": "Attrition review",
+          "dayOfWeek": "Wed",
+          "startTime": "11:00",
+          "endTime": "11:45",
+          "location": "Room Delft",
+          "attendees": "Sanne de Vries; Emma Bakker"
+        },
+        {
+          "id": "HR02-M05",
+          "title": "Grievance case review",
+          "dayOfWeek": "Thu",
+          "startTime": "15:00",
+          "endTime": "15:30",
+          "location": "Room Maas",
+          "attendees": "+1"
+        }
+      ]
+    },
+    {
+      "id": "HR03",
+      "name": "Aisha Khan",
+      "role": "Recruiter",
+      "age": 29,
+      "startDate": "2021-09-01",
+      "email": "aisha.khan@meridiangroup.com",
+      "location": "Rotterdam",
+      "photo": "face_11.jpg",
+      "tasks": [
+        {
+          "id": "HR03-T01",
+          "title": "Schedule final interviews for Data Analyst role",
+          "category": "Recruitment",
+          "priority": "High",
+          "dueOffsetDays": 0,
+          "status": "Open"
+        },
+        {
+          "id": "HR03-T02",
+          "title": "Send offer to Production Technician candidate",
+          "category": "Recruitment",
+          "priority": "High",
+          "dueOffsetDays": 0,
+          "status": "Open"
+        },
+        {
+          "id": "HR03-T03",
+          "title": "Update applicant tracker (12 new applications)",
+          "category": "Recruitment",
+          "priority": "Medium",
+          "dueOffsetDays": 1,
+          "status": "Open"
+        },
+        {
+          "id": "HR03-T04",
+          "title": "Prepare recruitment-pipeline update for Sanne",
+          "category": "Reporting",
+          "priority": "Medium",
+          "dueOffsetDays": 1,
+          "status": "Open"
+        },
+        {
+          "id": "HR03-T05",
+          "title": "Reference checks for 2 finalists",
+          "category": "Screening",
+          "priority": "Medium",
+          "dueOffsetDays": 2,
+          "status": "Open"
+        },
+        {
+          "id": "HR03-T06",
+          "title": "Post 3 open roles to job boards",
+          "category": "Sourcing",
+          "priority": "Low",
+          "dueOffsetDays": -1,
+          "status": "Done"
+        }
+      ],
+      "emails": [
+        {
+          "id": "HR03-E01",
+          "senderName": "Nadia el Amrani",
+          "senderEmail": "n.elamrani@gmail.com",
+          "subject": "Re: Data Analyst — interview availability",
+          "preview": "I'm available Thursday afternoon or Friday morning.",
+          "receivedMinutesAgo": 15,
+          "unread": true
+        },
+        {
+          "id": "HR03-E02",
+          "senderName": "Lisa Wong",
+          "senderEmail": "lisa.wong@meridiangroup.com",
+          "subject": "Feedback on shortlist",
+          "preview": "Let's move forward with candidates 1 and 3.",
+          "receivedMinutesAgo": 75,
+          "unread": true
+        },
+        {
+          "id": "HR03-E03",
+          "senderName": "LinkedIn",
+          "senderEmail": "notifications@linkedin.com",
+          "subject": "5 new applicants for your job post",
+          "preview": "New applicants for Production Technician I.",
+          "receivedMinutesAgo": 200,
+          "unread": false
+        },
+        {
+          "id": "HR03-E04",
+          "senderName": "Sanne de Vries",
+          "senderEmail": "sanne.devries@meridiangroup.com",
+          "subject": "Pipeline update for Thursday 1:1",
+          "preview": "Can you bring time-to-fill numbers to our 1:1?",
+          "receivedMinutesAgo": 600,
+          "unread": false
+        }
+      ],
+      "meetings": [
+        {
+          "id": "HR03-M01",
+          "title": "Intake meeting — new Finance role",
+          "dayOfWeek": "Mon",
+          "startTime": "11:00",
+          "endTime": "11:45",
+          "location": "Teams",
+          "attendees": "Lisa Wong"
+        },
+        {
+          "id": "HR03-M02",
+          "title": "Candidate interview — Data Analyst",
+          "dayOfWeek": "Tue",
+          "startTime": "14:00",
+          "endTime": "14:45",
+          "location": "Room Maas",
+          "attendees": "Nadia el Amrani"
+        },
+        {
+          "id": "HR03-M03",
+          "title": "Candidate interview — Data Analyst",
+          "dayOfWeek": "Wed",
+          "startTime": "09:30",
+          "endTime": "10:15",
+          "location": "Teams",
+          "attendees": "+1"
+        },
+        {
+          "id": "HR03-M04",
+          "title": "1:1 Sanne — pipeline update",
+          "dayOfWeek": "Thu",
+          "startTime": "10:00",
+          "endTime": "10:30",
+          "location": "Teams",
+          "attendees": "Sanne de Vries"
+        },
+        {
+          "id": "HR03-M05",
+          "title": "Weekly recruitment standup",
+          "dayOfWeek": "Fri",
+          "startTime": "13:00",
+          "endTime": "13:30",
+          "location": "Teams",
+          "attendees": "+2"
+        }
+      ]
+    },
+    {
+      "id": "HR04",
+      "name": "Lukas Meyer",
+      "role": "L&D Specialist",
+      "age": 34,
+      "startDate": "2019-02-18",
+      "email": "lukas.meyer@meridiangroup.com",
+      "location": "Utrecht",
+      "photo": "face_14.jpg",
+      "tasks": [
+        {
+          "id": "HR04-T01",
+          "title": "Finalise 2026 training plan",
+          "category": "Planning",
+          "priority": "High",
+          "dueOffsetDays": -1,
+          "status": "Done"
+        },
+        {
+          "id": "HR04-T02",
+          "title": "Book trainer for Leadership Development cohort",
+          "category": "Logistics",
+          "priority": "High",
+          "dueOffsetDays": 0,
+          "status": "Open"
+        },
+        {
+          "id": "HR04-T03",
+          "title": "Review completion rates: Customer Service program",
+          "category": "Reporting",
+          "priority": "Medium",
+          "dueOffsetDays": 1,
+          "status": "Open"
+        },
+        {
+          "id": "HR04-T04",
+          "title": "Update e-learning content for onboarding",
+          "category": "Content",
+          "priority": "Medium",
+          "dueOffsetDays": 3,
+          "status": "Open"
+        },
+        {
+          "id": "HR04-T05",
+          "title": "Chase 14 overdue mandatory-training completions",
+          "category": "Compliance",
+          "priority": "High",
+          "dueOffsetDays": 0,
+          "status": "Open"
+        },
+        {
+          "id": "HR04-T06",
+          "title": "Prepare training-impact slide for board deck",
+          "category": "Reporting",
+          "priority": "Medium",
+          "dueOffsetDays": 2,
+          "status": "Open"
+        }
+      ],
+      "emails": [
+        {
+          "id": "HR04-E01",
+          "senderName": "Sanne de Vries",
+          "senderEmail": "sanne.devries@meridiangroup.com",
+          "subject": "Re: 2026 training plan",
+          "preview": "Approving today. Add completion targets to the board slide.",
+          "receivedMinutesAgo": 50,
+          "unread": true
+        },
+        {
+          "id": "HR04-E02",
+          "senderName": "SkillForge",
+          "senderEmail": "accounts@skillforge.com",
+          "subject": "Invoice & June cohort confirmation",
+          "preview": "Confirming your Leadership Development cohort for next month.",
+          "receivedMinutesAgo": 180,
+          "unread": false
+        },
+        {
+          "id": "HR04-E03",
+          "senderName": "LMS System",
+          "senderEmail": "noreply@lms.meridiangroup.com",
+          "subject": "14 employees overdue on mandatory training",
+          "preview": "The following employees have not completed required modules.",
+          "receivedMinutesAgo": 720,
+          "unread": true
+        },
+        {
+          "id": "HR04-E04",
+          "senderName": "Emma Bakker",
+          "senderEmail": "emma.bakker@meridiangroup.com",
+          "subject": "Training cost reconciliation Q2",
+          "preview": "The training spend vs budget reconciliation is attached.",
+          "receivedMinutesAgo": 1300,
+          "unread": false
+        }
+      ],
+      "meetings": [
+        {
+          "id": "HR04-M01",
+          "title": "Weekly HR leadership sync",
+          "dayOfWeek": "Mon",
+          "startTime": "09:00",
+          "endTime": "09:30",
+          "location": "Teams",
+          "attendees": "Sanne de Vries; +3"
+        },
+        {
+          "id": "HR04-M02",
+          "title": "Trainer briefing — Leadership Development",
+          "dayOfWeek": "Tue",
+          "startTime": "11:00",
+          "endTime": "12:00",
+          "location": "Room Delft",
+          "attendees": "+2"
+        },
+        {
+          "id": "HR04-M03",
+          "title": "LMS review",
+          "dayOfWeek": "Wed",
+          "startTime": "14:00",
+          "endTime": "14:30",
+          "location": "Teams",
+          "attendees": ""
+        },
+        {
+          "id": "HR04-M04",
+          "title": "Onboarding content workshop",
+          "dayOfWeek": "Thu",
+          "startTime": "13:00",
+          "endTime": "13:45",
+          "location": "Room Maas",
+          "attendees": "+3"
+        },
+        {
+          "id": "HR04-M05",
+          "title": "L&D planning",
+          "dayOfWeek": "Fri",
+          "startTime": "10:00",
+          "endTime": "10:45",
+          "location": "Teams",
+          "attendees": "+1"
+        }
+      ]
+    },
+    {
+      "id": "HR05",
+      "name": "Emma Bakker",
+      "role": "HR Operations & Payroll",
+      "age": 45,
+      "startDate": "2013-11-04",
+      "email": "emma.bakker@meridiangroup.com",
+      "location": "Den Haag",
+      "photo": "face_18.jpg",
+      "tasks": [
+        {
+          "id": "HR05-T01",
+          "title": "Run June payroll cycle",
+          "category": "Payroll",
+          "priority": "High",
+          "dueOffsetDays": 1,
+          "status": "Open"
+        },
+        {
+          "id": "HR05-T02",
+          "title": "Reconcile training spend vs budget Q2",
+          "category": "Finance",
+          "priority": "Medium",
+          "dueOffsetDays": 0,
+          "status": "Open"
+        },
+        {
+          "id": "HR05-T03",
+          "title": "Process 4 new-hire onboarding packs",
+          "category": "Onboarding",
+          "priority": "High",
+          "dueOffsetDays": 0,
+          "status": "Open"
+        },
+        {
+          "id": "HR05-T04",
+          "title": "Update headcount master file",
+          "category": "Data",
+          "priority": "Medium",
+          "dueOffsetDays": -1,
+          "status": "Done"
+        },
+        {
+          "id": "HR05-T05",
+          "title": "Verify pension contributions",
+          "category": "Compliance",
+          "priority": "High",
+          "dueOffsetDays": 2,
+          "status": "Open"
+        },
+        {
+          "id": "HR05-T06",
+          "title": "Archive Q2 termination paperwork",
+          "category": "Compliance",
+          "priority": "Low",
+          "dueOffsetDays": 3,
+          "status": "Open"
+        }
+      ],
+      "emails": [
+        {
+          "id": "HR05-E01",
+          "senderName": "Loonservice",
+          "senderEmail": "support@loonservice.nl",
+          "subject": "June payroll cut-off reminder",
+          "preview": "Please submit final payroll changes by Thursday 17:00.",
+          "receivedMinutesAgo": 40,
+          "unread": true
+        },
+        {
+          "id": "HR05-E02",
+          "senderName": "Daan Jansen",
+          "senderEmail": "daan.jansen@meridiangroup.com",
+          "subject": "New starters for July — details attached",
+          "preview": "Here are the 4 new contracts for onboarding setup.",
+          "receivedMinutesAgo": 110,
+          "unread": true
+        },
+        {
+          "id": "HR05-E03",
+          "senderName": "Lukas Meyer",
+          "senderEmail": "lukas.meyer@meridiangroup.com",
+          "subject": "Re: Training cost reconciliation Q2",
+          "preview": "The SkillForge invoice should be coded to L&D.",
+          "receivedMinutesAgo": 260,
+          "unread": false
+        },
+        {
+          "id": "HR05-E04",
+          "senderName": "Pensioenfonds",
+          "senderEmail": "noreply@pensioenfonds.nl",
+          "subject": "Q2 contribution statement",
+          "preview": "Your quarterly contribution statement is now available.",
+          "receivedMinutesAgo": 900,
+          "unread": false
+        }
+      ],
+      "meetings": [
+        {
+          "id": "HR05-M01",
+          "title": "Weekly HR leadership sync",
+          "dayOfWeek": "Mon",
+          "startTime": "09:00",
+          "endTime": "09:30",
+          "location": "Teams",
+          "attendees": "Sanne de Vries; +3"
+        },
+        {
+          "id": "HR05-M02",
+          "title": "Payroll cut-off check",
+          "dayOfWeek": "Tue",
+          "startTime": "10:00",
+          "endTime": "10:30",
+          "location": "Teams",
+          "attendees": "+1"
+        },
+        {
+          "id": "HR05-M03",
+          "title": "Attrition review (data support)",
+          "dayOfWeek": "Wed",
+          "startTime": "11:00",
+          "endTime": "11:45",
+          "location": "Room Delft",
+          "attendees": "Sanne de Vries; Daan Jansen"
+        },
+        {
+          "id": "HR05-M04",
+          "title": "Onboarding admin sync",
+          "dayOfWeek": "Thu",
+          "startTime": "09:00",
+          "endTime": "09:30",
+          "location": "Teams",
+          "attendees": "Daan Jansen"
+        },
+        {
+          "id": "HR05-M05",
+          "title": "Q2 finance reconciliation",
+          "dayOfWeek": "Fri",
+          "startTime": "14:00",
+          "endTime": "14:30",
+          "location": "Room Maas",
+          "attendees": "+1"
+        }
+      ]
+    }
+  ]
+}
