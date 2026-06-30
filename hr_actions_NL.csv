@@ -1,0 +1,121 @@
+HRID,HRNaam,Jaar,Maand,Maandnaam,Categorie,Actie
+HR02,Daan Jansen,2026,1,Januari,Verzuim,Langdurig verzuim van Thijs de Wit (Productie) opvolgen.
+HR02,Daan Jansen,2026,1,Januari,Verzuim,Langdurig verzuim van Julia Kok (Softwareontwikkeling) opvolgen.
+HR03,Aisha Khan,2026,1,Januari,Onboarding,"Onboarding voorbereiden voor Sophie Peeters (Productie), start Februari."
+HR03,Aisha Khan,2026,1,Januari,Onboarding,"Onboarding voorbereiden voor Maud Jacobs (Verkoop), start Februari."
+HR03,Aisha Khan,2026,1,Januari,Onboarding,"Onboarding voorbereiden voor Stijn Peters (Verkoop), start Februari."
+HR01,Sanne de Vries,2026,2,Februari,Retentie,Spijtig vertrek van Daan Peters bespreken — lessen voor retentie vastleggen.
+HR01,Sanne de Vries,2026,2,Februari,Retentie,Spijtig vertrek van Cas Vos bespreken — lessen voor retentie vastleggen.
+HR01,Sanne de Vries,2026,2,Februari,Personeel,"Personeelsmutatie Februari beoordelen: 3 in, 2 uit."
+HR02,Daan Jansen,2026,2,Februari,Verzuim,Langdurig verzuim van Anna van den Berg (Productie) opvolgen.
+HR03,Aisha Khan,2026,2,Februari,Onboarding,"Onboarding voorbereiden voor Hanna Vermeulen (IT/IS), start Maart."
+HR03,Aisha Khan,2026,2,Februari,Onboarding,"Onboarding voorbereiden voor Nora Hofman (Directie), start Maart."
+HR04,Lukas Meyer,2026,2,Februari,Training,Onboarding-training inplannen voor 3 nieuwe medewerker(s) per Februari.
+HR05,Emma Bakker,2026,2,Februari,Offboarding,Offboarding verwerken voor Daan Peters (laatste dag in Februari).
+HR05,Emma Bakker,2026,2,Februari,Offboarding,Offboarding verwerken voor Cas Vos (laatste dag in Februari).
+HR01,Sanne de Vries,2026,3,Maart,Retentie,Spijtig vertrek van Thijs de Wit bespreken — lessen voor retentie vastleggen.
+HR01,Sanne de Vries,2026,3,Maart,Personeel,"Personeelsmutatie Maart beoordelen: 2 in, 2 uit."
+HR02,Daan Jansen,2026,3,Maart,Verzuim,Langdurig verzuim van Maud de Boer (Productie) opvolgen.
+HR03,Aisha Khan,2026,3,Maart,Onboarding,"Onboarding voorbereiden voor Julia Meijer (Productie), start April."
+HR03,Aisha Khan,2026,3,Maart,Onboarding,"Onboarding voorbereiden voor Sem Prins (Productie), start April."
+HR03,Aisha Khan,2026,3,Maart,Onboarding,"Onboarding voorbereiden voor Lotte Vos (IT/IS), start April."
+HR04,Lukas Meyer,2026,3,Maart,Training,Onboarding-training inplannen voor 2 nieuwe medewerker(s) per Maart.
+HR05,Emma Bakker,2026,3,Maart,Offboarding,Offboarding verwerken voor Thijs de Wit (laatste dag in Maart).
+HR05,Emma Bakker,2026,3,Maart,Offboarding,Offboarding verwerken voor Anna van den Berg (laatste dag in Maart).
+HR01,Sanne de Vries,2026,4,April,Personeel,"Personeelsmutatie April beoordelen: 3 in, 2 uit."
+HR02,Daan Jansen,2026,4,April,Verzuim,Langdurig verzuim van Lucas van Dijk (Productie) opvolgen.
+HR03,Aisha Khan,2026,4,April,Onboarding,"Onboarding voorbereiden voor Lars Maas (Productie), start Mei."
+HR03,Aisha Khan,2026,4,April,Onboarding,"Onboarding voorbereiden voor Iris Visser (Productie), start Mei."
+HR03,Aisha Khan,2026,4,April,Onboarding,"Onboarding voorbereiden voor Bas Bos (Productie), start Mei."
+HR04,Lukas Meyer,2026,4,April,Training,Onboarding-training inplannen voor 3 nieuwe medewerker(s) per April.
+HR05,Emma Bakker,2026,4,April,Offboarding,Offboarding verwerken voor Evi de Vries (laatste dag in April).
+HR05,Emma Bakker,2026,4,April,Offboarding,Offboarding verwerken voor Maud de Boer (laatste dag in April).
+HR01,Sanne de Vries,2026,5,Mei,Retentie,Spijtig vertrek van Julia Brouwer bespreken — lessen voor retentie vastleggen.
+HR01,Sanne de Vries,2026,5,Mei,Personeel,"Personeelsmutatie Mei beoordelen: 3 in, 2 uit."
+HR02,Daan Jansen,2026,5,Mei,Verzuim,Langdurig verzuim van Bas Koning (Productie) opvolgen.
+HR03,Aisha Khan,2026,5,Mei,Onboarding,"Onboarding voorbereiden voor Tim Smit (Productie), start Juni."
+HR03,Aisha Khan,2026,5,Mei,Onboarding,"Onboarding voorbereiden voor Noud Kok (Productie), start Juni."
+HR03,Aisha Khan,2026,5,Mei,Onboarding,"Onboarding voorbereiden voor Lieke Bakker (Productie), start Juni."
+HR03,Aisha Khan,2026,5,Mei,Onboarding,"Onboarding voorbereiden voor Tess Verhoeven (Productie), start Juni."
+HR03,Aisha Khan,2026,5,Mei,Onboarding,"Onboarding voorbereiden voor Julia Prins (Productie), start Juni."
+HR04,Lukas Meyer,2026,5,Mei,Training,Onboarding-training inplannen voor 3 nieuwe medewerker(s) per Mei.
+HR05,Emma Bakker,2026,5,Mei,Offboarding,Offboarding verwerken voor Finn Visser (laatste dag in Mei).
+HR05,Emma Bakker,2026,5,Mei,Offboarding,Offboarding verwerken voor Julia Brouwer (laatste dag in Mei).
+HR05,Emma Bakker,2026,5,Mei,Contract,Contract van Julia Brouwer verloopt 2026-06-11 — verlenging of offboarding starten.
+HR05,Emma Bakker,2026,5,Mei,Contract,Contract van Eva Verhoeven verloopt 2026-06-09 — verlenging of offboarding starten.
+HR05,Emma Bakker,2026,5,Mei,Contract,Contract van Iris Verhoeven verloopt 2026-06-06 — verlenging of offboarding starten.
+HR01,Sanne de Vries,2026,6,Juni,Retentie,Spijtig vertrek van Niels Kuipers bespreken — lessen voor retentie vastleggen.
+HR01,Sanne de Vries,2026,6,Juni,Retentie,Spijtig vertrek van Evi Visser bespreken — lessen voor retentie vastleggen.
+HR01,Sanne de Vries,2026,6,Juni,Retentie,Spijtig vertrek van Daan de Wit bespreken — lessen voor retentie vastleggen.
+HR01,Sanne de Vries,2026,6,Juni,Personeel,"Personeelsmutatie Juni beoordelen: 5 in, 4 uit."
+HR02,Daan Jansen,2026,6,Juni,Planning,Vakantiebezetting Productie regelen vóór de zomerperiode.
+HR03,Aisha Khan,2026,6,Juni,Onboarding,"Onboarding voorbereiden voor Ruben de Vries (Productie), start Juli."
+HR03,Aisha Khan,2026,6,Juni,Onboarding,"Onboarding voorbereiden voor Lotte Kok (Productie), start Juli."
+HR04,Lukas Meyer,2026,6,Juni,Training,Onboarding-training inplannen voor 5 nieuwe medewerker(s) per Juni.
+HR05,Emma Bakker,2026,6,Juni,Offboarding,Offboarding verwerken voor Sophie Mulder (laatste dag in Juni).
+HR05,Emma Bakker,2026,6,Juni,Offboarding,Offboarding verwerken voor Niels Kuipers (laatste dag in Juni).
+HR05,Emma Bakker,2026,6,Juni,Offboarding,Offboarding verwerken voor Evi Visser (laatste dag in Juni).
+HR05,Emma Bakker,2026,6,Juni,Offboarding,Offboarding verwerken voor Daan de Wit (laatste dag in Juni).
+HR05,Emma Bakker,2026,6,Juni,Contract,Contract van Femke van der Meer verloopt 2026-07-24 — verlenging of offboarding starten.
+HR05,Emma Bakker,2026,6,Juni,Contract,Contract van Loes Dijkstra verloopt 2026-07-24 — verlenging of offboarding starten.
+HR05,Emma Bakker,2026,6,Juni,Contract,Contract van Sem Prins verloopt 2026-07-12 — verlenging of offboarding starten.
+HR05,Emma Bakker,2026,6,Juni,Contract,Contract van Tim van der Meer verloopt 2026-07-24 — verlenging of offboarding starten.
+HR05,Emma Bakker,2026,6,Juni,Contract,Contract van Maaike van den Berg verloopt 2026-07-15 — verlenging of offboarding starten.
+HR05,Emma Bakker,2026,6,Juni,Contract,Contract van Saar Huisman verloopt 2026-07-29 — verlenging of offboarding starten.
+HR05,Emma Bakker,2026,6,Juni,Contract,Contract van Hanna Vermeulen verloopt 2026-07-24 — verlenging of offboarding starten.
+HR05,Emma Bakker,2026,6,Juni,Contract,Contract van Sara Smit verloopt 2026-07-04 — verlenging of offboarding starten.
+HR05,Emma Bakker,2026,6,Juni,Contract,Contract van Cas Brouwer verloopt 2026-07-24 — verlenging of offboarding starten.
+HR01,Sanne de Vries,2026,7,Juli,Retentie,Spijtig vertrek van Femke van der Meer bespreken — lessen voor retentie vastleggen.
+HR01,Sanne de Vries,2026,7,Juli,Personeel,"Personeelsmutatie Juli beoordelen: 2 in, 2 uit."
+HR03,Aisha Khan,2026,7,Juli,Onboarding,"Onboarding voorbereiden voor Stijn Huisman (Productie), start Augustus."
+HR03,Aisha Khan,2026,7,Juli,Onboarding,"Onboarding voorbereiden voor Eva de Vries (Softwareontwikkeling), start Augustus."
+HR04,Lukas Meyer,2026,7,Juli,Training,Onboarding-training inplannen voor 2 nieuwe medewerker(s) per Juli.
+HR05,Emma Bakker,2026,7,Juli,Offboarding,Offboarding verwerken voor Femke van der Meer (laatste dag in Juli).
+HR05,Emma Bakker,2026,7,Juli,Offboarding,Offboarding verwerken voor Bas Jansen (laatste dag in Juli).
+HR01,Sanne de Vries,2026,8,Augustus,Personeel,"Personeelsmutatie Augustus beoordelen: 2 in, 2 uit."
+HR02,Daan Jansen,2026,8,Augustus,Verzuim,Langdurig verzuim van Liam de Wit (Productie) opvolgen.
+HR02,Daan Jansen,2026,8,Augustus,Verzuim,Langdurig verzuim van Nora de Jong (Productie) opvolgen.
+HR02,Daan Jansen,2026,8,Augustus,Verzuim,Langdurig verzuim van Saar Huisman (IT/IS) opvolgen.
+HR03,Aisha Khan,2026,8,Augustus,Onboarding,"Onboarding voorbereiden voor Anna Willems (Productie), start September."
+HR03,Aisha Khan,2026,8,Augustus,Onboarding,"Onboarding voorbereiden voor Liam de Boer (IT/IS), start September."
+HR03,Aisha Khan,2026,8,Augustus,Onboarding,"Onboarding voorbereiden voor Lucas Dekker (IT/IS), start September."
+HR04,Lukas Meyer,2026,8,Augustus,Training,Onboarding-training inplannen voor 2 nieuwe medewerker(s) per Augustus.
+HR05,Emma Bakker,2026,8,Augustus,Offboarding,Offboarding verwerken voor Bas Koning (laatste dag in Augustus).
+HR05,Emma Bakker,2026,8,Augustus,Offboarding,Offboarding verwerken voor Jesse van Dijk (laatste dag in Augustus).
+HR05,Emma Bakker,2026,8,Augustus,Contract,Contract van Liv Dekker verloopt 2026-09-13 — verlenging of offboarding starten.
+HR05,Emma Bakker,2026,8,Augustus,Contract,Contract van Jesse Koning verloopt 2026-09-22 — verlenging of offboarding starten.
+HR01,Sanne de Vries,2026,9,September,Retentie,Spijtig vertrek van Lars Bakker bespreken — lessen voor retentie vastleggen.
+HR01,Sanne de Vries,2026,9,September,Personeel,"Personeelsmutatie September beoordelen: 3 in, 2 uit."
+HR02,Daan Jansen,2026,9,September,Verzuim,Langdurig verzuim van Hanna Mulder (Productie) opvolgen.
+HR02,Daan Jansen,2026,9,September,Verzuim,Langdurig verzuim van Sophie Peeters (Productie) opvolgen.
+HR02,Daan Jansen,2026,9,September,Verzuim,Langdurig verzuim van Noud de Jong (IT/IS) opvolgen.
+HR03,Aisha Khan,2026,9,September,Onboarding,"Onboarding voorbereiden voor Thijs de Boer (Productie), start Oktober."
+HR03,Aisha Khan,2026,9,September,Onboarding,"Onboarding voorbereiden voor Nora Vos (Productie), start Oktober."
+HR03,Aisha Khan,2026,9,September,Onboarding,"Onboarding voorbereiden voor Fenna Hendriks (Productie), start Oktober."
+HR04,Lukas Meyer,2026,9,September,Training,Onboarding-training inplannen voor 3 nieuwe medewerker(s) per September.
+HR05,Emma Bakker,2026,9,September,Offboarding,Offboarding verwerken voor Lars Bakker (laatste dag in September).
+HR05,Emma Bakker,2026,9,September,Offboarding,Offboarding verwerken voor Thijs Jacobs (laatste dag in September).
+HR05,Emma Bakker,2026,9,September,Contract,Contract van Daan Peters verloopt 2026-10-04 — verlenging of offboarding starten.
+HR05,Emma Bakker,2026,9,September,Contract,Contract van Sem Meijer verloopt 2026-10-31 — verlenging of offboarding starten.
+HR05,Emma Bakker,2026,9,September,Contract,Contract van Tom Dijkstra verloopt 2026-10-02 — verlenging of offboarding starten.
+HR05,Emma Bakker,2026,9,September,Contract,Contract van Anna Willems verloopt 2026-10-13 — verlenging of offboarding starten.
+HR05,Emma Bakker,2026,9,September,Contract,Contract van Saar de Boer verloopt 2026-10-13 — verlenging of offboarding starten.
+HR05,Emma Bakker,2026,9,September,Contract,Contract van Femke van Dijk verloopt 2026-10-22 — verlenging of offboarding starten.
+HR01,Sanne de Vries,2026,10,Oktober,Retentie,Spijtig vertrek van Nora Kok bespreken — lessen voor retentie vastleggen.
+HR01,Sanne de Vries,2026,10,Oktober,Personeel,"Personeelsmutatie Oktober beoordelen: 3 in, 1 uit."
+HR03,Aisha Khan,2026,10,Oktober,Onboarding,"Onboarding voorbereiden voor Bram Bakker (Productie), start November."
+HR03,Aisha Khan,2026,10,Oktober,Onboarding,"Onboarding voorbereiden voor Tess Smits (IT/IS), start November."
+HR04,Lukas Meyer,2026,10,Oktober,Training,Onboarding-training inplannen voor 3 nieuwe medewerker(s) per Oktober.
+HR05,Emma Bakker,2026,10,Oktober,Offboarding,Offboarding verwerken voor Nora Kok (laatste dag in Oktober).
+HR05,Emma Bakker,2026,10,Oktober,Contract,Contract van Evi de Vries verloopt 2026-11-14 — verlenging of offboarding starten.
+HR05,Emma Bakker,2026,10,Oktober,Contract,Contract van Lars Dijkstra verloopt 2026-11-25 — verlenging of offboarding starten.
+HR01,Sanne de Vries,2026,11,November,Retentie,Spijtig vertrek van Eva Verhoeven bespreken — lessen voor retentie vastleggen.
+HR01,Sanne de Vries,2026,11,November,Personeel,"Personeelsmutatie November beoordelen: 2 in, 1 uit."
+HR02,Daan Jansen,2026,11,November,Verzuim,Langdurig verzuim van Tim van der Meer (IT/IS) opvolgen.
+HR04,Lukas Meyer,2026,11,November,Training,Onboarding-training inplannen voor 2 nieuwe medewerker(s) per November.
+HR05,Emma Bakker,2026,11,November,Offboarding,Offboarding verwerken voor Eva Verhoeven (laatste dag in November).
+HR05,Emma Bakker,2026,11,November,Contract,Contract van Loes Mulder verloopt 2026-12-03 — verlenging of offboarding starten.
+HR01,Sanne de Vries,2026,12,December,Retentie,Spijtig vertrek van Levi Peeters bespreken — lessen voor retentie vastleggen.
+HR01,Sanne de Vries,2026,12,December,Personeel,"Personeelsmutatie December beoordelen: 0 in, 2 uit."
+HR05,Emma Bakker,2026,12,December,Offboarding,Offboarding verwerken voor Levi Peeters (laatste dag in December).
+HR05,Emma Bakker,2026,12,December,Offboarding,Offboarding verwerken voor Sophie Hendriks (laatste dag in December).
